@@ -28,3 +28,6 @@ Documentation
 
 Support
 - For questions, open an issue or contact the team owning this repo.
+
+Architecture
+<img width="936" height="768" alt="Screenshot 2025-12-01 104432" src="https://github.com/user-attachments/assets/428af429-85ab-491b-8f4f-10310792300b" />
