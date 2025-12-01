@@ -27,3 +27,4 @@ Networking
 Scaling & HA
 - Autoscaling group for app tier; scaling policies based on CPU/requests.
 - RDS with Multi-AZ if required.
+<img width="936" height="768" alt="Screenshot 2025-12-01 104432" src="https://github.com/user-attachments/assets/5810de6e-cb37-419c-a409-897983d65a12" />
