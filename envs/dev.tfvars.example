@@ -1,0 +1,15 @@
+# Example environment variables file for dev (do NOT store real secrets here)
+
+region        = "us-east-1"
+environment   = "dev"
+vpc_cidr      = "10.0.0.0/16"
+
+public_subnets  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnets = ["10.0.101.0/24", "10.0.102.0/24"]
+
+instance_type = "t3.small"
+ssh_key_name  = "example-key"
+
+# Database credentials - DO NOT COMMIT ACTUAL SECRETS. Use secret manager or workspace vars.
+# db_username = "admin"
+# db_password = "REPLACE_WITH_SECRET"

@@ -1,0 +1,61 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform var and state files (sensitive)
+terraform.tfvars
+terraform.tfvars.json
+envs/*.tfvars
+*.tfvars
+*.tfvars.json
+backend.tfvars
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.pfx
+*.asc
+secrets/
+secrets.*
+*.secret
+.env
+.env.*
+.terraform.d/
+
+# Cloud provider files (avoid commiting local profiles)
+credentials
+*.credentials
+azureProfile.json
+kubeconfig
+kubeconfig.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and local build outputs
+*.log
+build/
+tmp/
+tmp-*/
+
+# Optional: local scripts and overrides
+local.tfvars
+local.override.tfvars
